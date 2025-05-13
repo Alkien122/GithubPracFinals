@@ -18,5 +18,10 @@ namespace GithubPracFinals
             this.LastName = lastName;
             this.Age = age;
         }
+        public string GetFullName()
+        {
+            string fullName = FirstName + " " + LastName;
+            return fullName;
+        }
     }
 }
