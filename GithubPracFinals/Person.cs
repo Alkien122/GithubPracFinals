@@ -18,10 +18,17 @@ namespace GithubPracFinals
             this.LastName = lastName;
             this.Age = age;
         }
+
         public string GetFullName()
         {
             string fullName = FirstName + " " + LastName;
             return fullName;
+        }
+
+        public void DisplayInfo()
+        {
+            Console.WriteLine(FirstName + " " + LastName);
+            Console.WriteLine(Age);
         }
     }
 }
